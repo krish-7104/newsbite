@@ -6,7 +6,7 @@ import NewsArea from "./Components/NewsArea";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
-  let apiKey = process.env.REACT_APP_API_KEY;
+  let apiKey = "90cdd48823dd4508943512eca03110ec";
   let pageSize = 6;
   return (
     <Router>
